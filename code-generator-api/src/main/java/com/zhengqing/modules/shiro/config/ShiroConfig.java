@@ -144,8 +144,8 @@ public class ShiroConfig {
     @Bean
     public RedisManager redisManager() {
         RedisManager redisManager = new RedisManager();
-        redisManager.setHost(host);
-        redisManager.setPort(port);
+        redisManager.setHost("127.0.0.1:6379");
+        //redisManager.setPort(port);
         redisManager.setTimeout(timeout);
 //        redisManager.setPassword(password);
         return redisManager;

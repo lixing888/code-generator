@@ -32,7 +32,7 @@ public class ApplicationTests {
         User user = new User();
         // 分页查询 10 条姓名为‘xx’、性别为男，且年龄在18至50之间的用户记录
         List<User> userList = user.selectPage(
-                new Page<User>(1, 10),
+                new Page<User>(1, 5),
                 new EntityWrapper<User>().eq("nick_name", "郑清")
                         .eq("sex", 0)
 //                        .between("age", "18", "50")

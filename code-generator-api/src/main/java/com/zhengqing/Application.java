@@ -8,7 +8,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 /**
  * @author Administrator
- * http:127.0.0.1:9100/code-generator
+ * http:127.0.0.1:9527/code-generator
  */
 @EnableConfigurationProperties({MyProperties.class})
 @EnableTransactionManagement
